@@ -25,11 +25,12 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Got it. I've added this task:
-      [T][ ]  read a book\n"
-      now you have 1 tasks in the list.
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Got it. I've added this task:`
+`      [T][ ]  read a book\n"`
+`      now you have 1 tasks in the list.`
+`____________________________________________________________``
 
 ### `deadline` - Create Deadline
 
@@ -41,11 +42,12 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Got it. I've added this task:
-      [D][ ]  read a book (by: 31 Jan 2021)
-      now you have 1 tasks in the list.
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Got it. I've added this task:`
+`      [D][ ]  read a book (by: 31 Jan 2021)`
+`      now you have 1 tasks in the list.`
+`____________________________________________________________``
 
 ### `event` - Create Event
 
@@ -57,11 +59,12 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-      Got it. I've added this task:
-      [E][ ]  read a book (at: 31 Jan 2021)
-      now you have 1 tasks in the list.
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`      Got it. I've added this task:`
+`      [E][ ]  read a book (at: 31 Jan 2021)`
+`      now you have 1 tasks in the list.`
+`____________________________________________________________``
 
 
 ### `done - Mark a task as done`
@@ -74,10 +77,11 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Nice! I've marked this task as done:
-      [T][X]  read a book
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Nice! I've marked this task as done:`
+`      [T][X]  read a book`
+`____________________________________________________________``
 
 ### `list - List all tasks`
 
@@ -89,12 +93,13 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Here are the tasks in your list:
-      1.  [T][ ]  read a book
-      2.  [D][ ]  read a book (by: 31 Jan 2021)
-      3.  [E][ ]  read a book (at: 31 Jan 2021)
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Here are the tasks in your list:`
+`      1.  [T][ ]  read a book`
+`      2.  [D][ ]  read a book (by: 31 Jan 2021)`
+`      3.  [E][ ]  read a book (at: 31 Jan 2021)`
+`____________________________________________________________``
 
 ### `delete - Delete a task`
 
@@ -106,11 +111,12 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Noted. I've removed this task:
-      [D][ ]  read a book (by: 31 Jan 2021)
-      now you have 2 tasks in the list.
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Noted. I've removed this task:`
+`      [D][ ]  read a book (by: 31 Jan 2021)`
+`      now you have 2 tasks in the list.`
+`____________________________________________________________``
 
 ### `find - Find tasks matching a substring`
 
@@ -122,12 +128,13 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Here are the matching tasks in your list:
-      1.  [T][ ]  read a book
-      2.  [D][ ]  read a book (by: 31 Jan 2021)
-      3.  [E][ ]  read a book (at: 31 Jan 2021)
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`  	  Here are the matching tasks in your list:`
+`      1.  [T][ ]  read a book`
+`      2.  [D][ ]  read a book (by: 31 Jan 2021)`
+`      3.  [E][ ]  read a book (at: 31 Jan 2021)`
+`____________________________________________________________``
 
 ### `taskson - Find tasks to do on a certain day`
 
@@ -139,12 +146,13 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  Here are the tasks on 2021-01-31:
-      1.  [T][ ]  read a book
-      2.  [D][ ]  read a book (by: 31 Jan 2021)
-      3.  [E][ ]  read a book (at: 31 Jan 2021)
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`	   Here are the tasks on 2021-01-31:`
+`      1.  [T][ ]  read a book`
+`      2.  [D][ ]  read a book (by: 31 Jan 2021)`
+`      3.  [E][ ]  read a book (at: 31 Jan 2021)`
+`____________________________________________________________``
 
 ### `clear - Clear all tasks`
 
@@ -156,6 +164,7 @@ Example of usage:
 
 Expected outcome:
 
-`____________________________________________________________
-	  The list has been cleared
-    ____________________________________________________________`
+`____________________________________________________________`
+``
+`  	  The list has been cleared`
+`____________________________________________________________``
